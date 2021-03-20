@@ -1,0 +1,5 @@
+# formato original
+django
+gunicorn
+django-heroku
+# formato original
