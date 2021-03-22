@@ -1,0 +1,10 @@
+# Branch: depende
+
+django
+gunicorn
+django-heroku
+flake8
+pytest
+pytest-django
+python-decouple
+

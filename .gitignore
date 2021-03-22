@@ -132,3 +132,7 @@ dmypy.json
 .vscode/
 .vscode/settings.json
 
+# terminotes
+terminotes_repo_py392/
+
+
