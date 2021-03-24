@@ -32,7 +32,11 @@ jobs:
           POSTGRES_DB: postgres
     # It comes "before-script"
     before-script:
+<<<<<<< HEAD
       psql -c "CREATE DATABASE testdb;" -U postgres
+=======
+      - psql -c "CREATE DATABASE testdb;" -U postgres
+>>>>>>> 3c015d51380784f10fe7bebbb90b8781a9eca4aa
     - name: Install dependencies
       run: |
         cp contrib/env-sample .env
