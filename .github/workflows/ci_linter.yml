@@ -31,8 +31,8 @@ jobs:
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: postgres
     # It comes "before-script"
-    before-script:
-      psql -c "CREATE DATABASE testdb;" -U postgres
+    # before-script:
+      # psql -c "CREATE DATABASE testdb;" -U postgres
     - name: Install dependencies
       run: |
         cp contrib/env-sample .env
