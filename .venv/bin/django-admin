@@ -1,4 +1,4 @@
-#!/home/flc/pyproj/repo_py392/.venv/bin/python
+#!/home/flc2/pyproj/repo_py392/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
