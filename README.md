@@ -12,6 +12,7 @@ Deploy Automático / GitHub: "App was successfully deployed"
 
 ## Status do fluxo de trabalho: (.github/workflows/)
 
-![.github/workflows/ci_linter.yml]https://github.com/fernandolcouto/repo_py392/actions/workflows/ci_linter.yml/badge.svg
+[![.github/workflows/ci_linter.yml](https://github.com/fernandolcouto/repo_py392/actions/workflows/ci_linter.yml/badge.svg)](https://github.com/fernandolcouto/repo_py392/actions/workflows/ci_linter.yml/badge.svg)
+
 
 
