@@ -130,6 +130,24 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#dynaconf settings
+/settings.yml
+/frontend/css/
+/frontend/node_modules/
+
+# no including dumps
+*.dump
+
+repo_py392-website/.pytest_cache/
+mediafiles/
+staticfiles/
+
+.pytest_cache/
+
+# local posgres files
+.pgdata
+
+
 # vscode settings folders
 .vscode/
 .vscode/settings.json
