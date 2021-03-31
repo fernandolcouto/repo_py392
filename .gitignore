@@ -148,12 +148,18 @@ staticfiles/
 .pgdata
 
 
+# ===========================================
+# padrões em ~/.config/git/.gitignore_global
+
 # vscode settings folders
-.vscode/
-.vscode/settings.json
-settings.json
+# .vscode/
+# .vscode/settings.json
+# settings.json
+# ============================================
 
 # terminotes
-terminotes_repo_py392/
+terminotes/*
+terminotes/
+terminotes
 
 
