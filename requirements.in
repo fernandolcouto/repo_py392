@@ -1,0 +1,11 @@
+# Branch: depende
+
+django
+gunicorn
+django-heroku
+flake8
+pytest
+pytest-django
+python-decouple
+dj-database-url
+psycopg2-binary

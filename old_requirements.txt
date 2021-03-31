@@ -1,0 +1,6 @@
+# formato original
+django
+gunicorn
+django-heroku
+# formato original
+python-decouple==3.4
