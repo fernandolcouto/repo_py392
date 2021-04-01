@@ -55,5 +55,17 @@ jobs:
     - name: Run migrations
       run: python manage.py migrate
     
-      # after-success:
-        # codecov    
+    - name: Coverage with Codecov
+      env:
+        CODECOV_TOKEN: "8a092285-5d2c-440c-bdb1-369526aaf250"
+      run: |
+        codecov    
+    - name: Create Awesome Badge
+      uses: schneegans/dynamic-badges-action@v1.0.0
+      with:
+        auth: ${{ secrets.GIST_SECRET }}
+        gistID: 40fb734ba0c82e5b5e04a7656b38c41e
+        filename: test.json
+        label: Coverage
+        message: Codecov
+        color: orange
