@@ -60,9 +60,11 @@ jobs:
         CODECOV_TOKEN: "8a092285-5d2c-440c-bdb1-369526aaf250"
       run: |
         pip install coverage
+        pip install pytest-cov
+        pytest --cov=./
     - name: Upload Coverage to Codecov
       uses: codecov/codecov-action@v1
-      with:
+      
     - name: Create Awesome Badge
       uses: schneegans/dynamic-badges-action@v1.0.0
       with:
