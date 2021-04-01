@@ -14,5 +14,4 @@ Deploy Automático / GitHub: "App was successfully deployed"
 
 [![.github/workflows/ci_linter.yml](https://github.com/fernandolcouto/repo_py392/actions/workflows/ci_linter.yml/badge.svg)](https://github.com/fernandolcouto/repo_py392/actions/workflows/ci_linter.yml/badge.svg)
 
-![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/fernandolcouto/40fb734ba0c82e5b5e04a7656b38c41e/raw/test.json)
-
+<script src="https://gist.github.com/fernandolcouto/40fb734ba0c82e5b5e04a7656b38c41e.js"></script>
